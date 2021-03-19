@@ -24,10 +24,7 @@
   color: #fff;
 }
 
-.container > p > strong {
-  color: #3498db;
-}
-
 .container p strong {
   font-style: italic;
+  color: yellow;
 }
