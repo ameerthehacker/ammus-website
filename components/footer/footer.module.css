@@ -1,0 +1,32 @@
+.footer {
+  background: #20262D;
+  color: #fff;
+}
+
+.footerContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+}
+
+.address.detail {
+  align-items: baseline;
+}
+
+.detail span {
+  margin-left: 5px;
+}
+
+.detail + .detail {
+  margin-top: 5px;
+}

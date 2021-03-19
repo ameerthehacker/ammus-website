@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Navbar as BNavbar, Nav, NavDropdown } from 'react-bootstrap';
-import { FaBroom, FaInfoCircle } from 'react-icons/fa';
+import { Navbar as BNavbar, Nav } from 'react-bootstrap';
+import { FaBroom, FaPhoneAlt } from 'react-icons/fa';
 import { FaQuestionCircle } from 'react-icons/fa';
 import styles from './navbar.module.css';
 
@@ -39,9 +39,9 @@ export default function Navbar() {
             <FaQuestionCircle />
             <span>FAQ</span>
           </Nav.Link>
-          <Nav.Link href="#faq" className={styles.navLink}>
-            <FaInfoCircle />
-            <span>About US</span>
+          <Nav.Link href="#aboutus" className={styles.navLink}>
+            <FaPhoneAlt />
+            <span>Contact US</span>
           </Nav.Link>
         </Nav>
       </BNavbar.Collapse>
