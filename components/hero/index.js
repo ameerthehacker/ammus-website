@@ -10,7 +10,7 @@ export default function Hero() {
       <p>
         Organic, Deep Clean, and Improve <strong>Lifespan</strong> of your machine: Our special <strong>product for household</strong> laundry machine provides uncompromising cleanliness.
       </p>
-      <Button href="#highlights" variant="outline-warning" href="#products" size="lg">Read More</Button>
+      <Button href="#highlights" variant="outline-warning" size="lg">Read More</Button>
     </div>
   )
 }

@@ -4,9 +4,9 @@ import styles from './highlights.module.css';
 
 export default function Highlights() {
   return (
-    <Container id="highlights" className="mt-3">
-      <h1>
-        What choose us?
+    <Container className="mt-3">
+      <h1 id="highlights">
+        Why choose us?
       </h1>
       <Row lg={2} xs={1} className="mt-2">
         <Col className="mt-3">
