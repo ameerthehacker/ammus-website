@@ -1,3 +1,12 @@
 .navbar * {
   color: #fff !important;
 }
+
+.navLink {
+  display: flex;
+  align-items: center;
+}
+
+.navLink > span {
+  margin-left: 5px;
+}

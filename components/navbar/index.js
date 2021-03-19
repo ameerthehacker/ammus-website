@@ -1,4 +1,8 @@
 import { Navbar as BNavbar, Nav, NavDropdown } from 'react-bootstrap';
+import { FaInfoCircle } from 'react-icons/fa';
+import { FaQuestionCircle } from 'react-icons/fa';
+import styles from './navbar.module.css';
+
 
 export default function Navbar() {
   return (
@@ -12,8 +16,14 @@ export default function Navbar() {
             <NavDropdown.Item>Product1</NavDropdown.Item>
             <NavDropdown.Item>Product2</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#faq">FAQ</Nav.Link>
-          <Nav.Link href="#about-us">About US</Nav.Link>
+          <Nav.Link href="#faq" className={styles.navLink}>
+            <FaQuestionCircle />
+            <span>FAQ</span>
+          </Nav.Link>
+          <Nav.Link href="#faq" className={styles.navLink}>
+            <FaInfoCircle />
+            <span>About US</span>
+          </Nav.Link>
         </Nav>
       </BNavbar.Collapse>
     </BNavbar>
