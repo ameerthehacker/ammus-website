@@ -1,0 +1,15 @@
+.highlight img {
+  height: 70px;
+  width: auto;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  border: 1px solid #95a5a6;
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(to left, #4776E6, #8E54E9);
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

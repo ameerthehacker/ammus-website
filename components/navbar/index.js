@@ -1,5 +1,5 @@
 import { Navbar as BNavbar, Nav, NavDropdown } from 'react-bootstrap';
-import { FaInfoCircle } from 'react-icons/fa';
+import { FaBroom, FaInfoCircle } from 'react-icons/fa';
 import { FaQuestionCircle } from 'react-icons/fa';
 import styles from './navbar.module.css';
 
@@ -12,10 +12,10 @@ export default function Navbar() {
       <BNavbar.Toggle aria-controls="basic-navbar-nav" />
       <BNavbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <NavDropdown title="Products" id="basic-nav-dropdown">
-            <NavDropdown.Item>Product1</NavDropdown.Item>
-            <NavDropdown.Item>Product2</NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="#products" className={styles.navLink}>
+            <FaBroom />
+            <span>Products</span>
+          </Nav.Link>
           <Nav.Link href="#faq" className={styles.navLink}>
             <FaQuestionCircle />
             <span>FAQ</span>

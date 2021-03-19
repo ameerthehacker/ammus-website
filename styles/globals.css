@@ -5,3 +5,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+body {
+  background: #ecf0f1 !important;
+}
