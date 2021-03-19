@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container > h1 {
+  color: #fff;
+}
+
+.container > p {
+  max-width: 700px;
+  text-align: center;
+  color: #fff;
+}
+
+.container p strong {
+  font-style: italic;
+}
+
