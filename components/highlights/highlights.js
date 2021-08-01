@@ -1,5 +1,4 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import { FaSmile } from 'react-icons/fa';
 import styles from './highlights.module.css';
 
 export default function Highlights() {
